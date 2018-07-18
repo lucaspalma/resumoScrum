@@ -1,0 +1,201 @@
+#languageSwitch {
+	color: #fff;
+	cursor: pointer;
+	font-variant: small-caps;
+	position: absolute;
+		right: 1.5em;
+		top: 1em;
+	text-decoration: none;
+	z-index: 1;
+}
+
+.reveal .cover h1{
+	font-size: 2.5em;
+	margin-bottom: 0.5em;
+	line-height: 1.2em;
+}
+
+.reveal .cover h2 {
+	margin-top: -0.3em;
+	font-size: 2em;
+	margin-bottom: 0.5em;
+	line-height: 1.2em;
+}
+
+.reveal .whoAmI {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 1em;
+}
+
+.reveal .whoAmI h4 {
+	font-size: 1em;
+	line-height: 1.2em;
+}
+
+.reveal .whoAmI h5 {
+	font-size: 0.8em;
+	text-align: center;
+	line-height: 1.2em;
+}
+
+.reveal .whoAmI a {
+	font-size: 1em;
+	display: block;
+	clear: both;
+	color: #BDC3C7;
+}
+
+.reveal .whoAmI a:hover {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.reveal .end.whoAmI a {
+	color: #0000AA;
+}
+.reveal .end.whoAmI a:hover {
+	color: #2222CC;
+}
+
+.reveal .positive {
+	color: #22FF22;
+}
+
+.reveal .negative {
+	color: #FF3333;
+}
+
+.reveal .neutral {
+	color:#3498DB;
+}
+
+.reveal .warning {
+	color:#fffc00;
+}
+
+.reveal h3 {
+	font-size: 2.5em;
+	line-height: 1.2em;
+}
+
+.reveal h4 {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 1em;
+	line-height: 1.2em;
+}
+
+.reveal h5 {
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 1.2em;
+}
+
+.reveal h6 {
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	margin-left: 1em;
+}
+
+.reveal .author {
+	text-align: right;
+}
+
+.reveal section img {
+	width: 100%;
+	height: 100%;	
+}
+
+.reveal section .imagem-bom-dia {
+	width: 600px;
+}
+
+.reveal section .imagem-gigante {
+	width: 1300px;
+}
+.reveal section .imagem-grande {
+	width: 900px;
+}
+
+.reveal section .imagem-media {
+	width: 750px;
+}
+
+.reveal section .imagem-pequena {
+	width: 380px;
+}
+
+.reveal section .imagem-minuscula {
+	width: 250px;
+}
+
+.reveal section .imagem-micro {
+	width: 160px;
+}
+
+.reveal section .texto-pequeno {
+	font-size: 30px;
+}
+
+.reveal .reallyBig {
+	font-size: 15em;
+}
+.reveal .bigger {
+	font-size: 3em;
+}
+.reveal .author {
+	text-align: right;	
+}
+.reveal .lightBackground {
+	color: #000;
+}
+/* Fonts */
+.reveal .cursiveFont {
+	font-family: 'Dancing Script', cursive;
+}
+.reveal .attentionFont {
+	font-family: 'Londrina Sketch', cursive;
+}
+.reveal .mythbusters {
+	font-family: 'Special Elite', cursive;
+	transform: rotate(-15deg);
+	font-weight: bold;
+	color: #F66;
+	font-size: 5em;
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2em;
+}
+
+.reveal .--espaco-lateral {
+	margin: 0 30px;
+}
+
+.--esquerda {
+	text-align: left;
+}
+
+.--esquerda a {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+}
+.flutua-esquerda{
+	float: left;
+}
+
+.reveal .link-palestra {
+	font-family: monospace;
+	margin-top: 1em;
+}
+
+.reveal a {
+	color: #BDC3C7;
+	font-size: 1.2em;
+}

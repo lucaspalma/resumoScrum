@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Scrum at scale - @lucaspalma</title>
+
+	<meta name="description" content="Scrum">
+	<meta name="author" content="Lucas Takeshi R. Palma @lucaspalma">
+
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/freedomTheme.css" id="theme">
+	<link rel="stylesheet" href="css/aleatorio.css">
+
+	<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+	<script>
+		document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+	</script>
+
+	<!-- font imports -->
+	<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Londrina+Sketch' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+
+	<!-- my css -->
+	<link rel="stylesheet" href="css/talk.css">
+</head>
+
+<body>
+
+<div class="reveal linear center">
+
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+	<section class="cover">
+		<h1>O framework Scrum</h1>
+		<div class="whoAmI">
+			<h4>Lucas Takeshi Rodrigues Palma</h4>
+			<a href="http://github.com/lucaspalma">github.com/lucaspalma</a>
+		</div>
+		
+	</section>
+	<section>
+		<img src="images/foto.jpg" class="imagem-pequena flutua-esquerda">
+		<img src="images/caelum.png" class="imagem-pequena flutua-esquerda">
+		<h6 class="flutua-esquerda">Desenvolvedor e Instrutor</h6>
+		<h6 class="flutua-esquerda">Scrum Master<span class="fragment"> => Agile coach</span></h6>
+		<img src="images/panco.png" class="imagem-pequena flutua-esquerda fragment">
+	</section>
+
+	<section>
+		<section>
+			<h3>Mas o que é o Scrum?</h3>
+			<h5 class="negative fragment">O que faz? Onde vive?</h5>
+		</section>
+		<section>
+			<img src="images/autores.jpg" class="imagem-media">
+		</section>
+		<section>
+			<h4>Apresentado em 1995</h4>
+			<h4>OOPSLA</h4>
+			<h4 class="fragment">Agile + Lean</h4>
+		</section>
+		<section>
+			<h4>Modelo <span class="fragment">=> Framework</span></h4>
+			<h4 class="fragment">como faz? <span class="fragment">=> o que fazer?</span></h4>
+			<h2 class="negative fragment">Adaptação</h2>
+		</section>
+	</section>
+
+	<section>
+		<section>
+			<h2>Fluxo de trabalho no Scrum</h2>
+		</section>	
+		<section>
+			<img src="images/backlogCompleto.png" class="imagem-micro">
+		</section>
+		<section>
+			<img src="images/cliente.png" class="imagem-grande">
+		</section>
+		<section>
+			<h3>Quais os problemas de tentar planejar tudo no começo?</h3>
+		</section>
+		<section data-background="images/manifesto.png"></section>
+		<section data-background="images/principiosEntrega.png"></section>
+		<section>
+			<img src="images/backlogCaixa.png" class="imagem-pequena">
+		</section>
+		<section>
+			<img src="images/backlogMontandoSprint.png" class="imagem-pequena">
+		</section>
+		<section>
+			<img src="images/primeiraSprint.png" class="imagem-pequena">
+		</section>
+		<section>
+			<img src="images/segundaSprintProblema.png" class="imagem-pequena">
+		</section>
+		<section>
+			<img src="images/segundaSprintSolucao1.png" class="imagem-pequena">
+		</section>
+		<section>
+			<img src="images/segundaSprintSolucao2.png" class="imagem-pequena">
+		</section>
+		<section>
+			<h1>Timebox</h1>
+			<h5 class="fragment">Tudo tem hora para começar e terminar</h5>
+			<h5 class="fragment">Se começou, não mexe neste timebox</h5>
+		</section>
+	</section>
+	<section>
+		<section data-background="images/cicloGrande.png"></section>
+		<section>
+			<img src="images/cicloContinuo.png" >
+		</section>
+		<section data-background="images/cicloModeloFramework.png"></section>
+		<section data-background="images/ciclo1.png"></section>
+		<section data-background="images/ciclo2.png"></section>
+		<section data-background="images/ciclo3.png"></section>
+		<section data-background="images/ciclo4.png"></section>
+	</section>
+	<section>
+		<section>
+			<h3>O que vamos fazer agora que passamos um tempo desenvolvendo?</h3>
+		</section>
+		<section>
+			<h5>Review meeting</h5>
+			<img src="images/reviewCliente.jpeg" class="imagem-media">
+			<a href="https://masterofproject.com/blog/135465/scrum-sprint-review" class="texto-pequeno">https://masterofproject.com/blog/135465/scrum-sprint-review</a>
+		</section>
+		<section data-background="images/ciclo5.png"></section>
+		<section>
+			<h3>Quem participa dela?</h3>
+		</section>
+		<section data-background="images/ciclo6.png"></section>
+		<section>
+			<h3>Mas qual será o fluxo da reunião?</h3>
+		</section>
+		<section>
+			<h3>1° passo: <span class="fragment negative">Trazer as histórias PRONTAS</span></h3>
+			<h5 class="fragment">Mas o que é algo estar pronto???</h5>
+		</section>
+		<section>
+			<h3>Critério de pronto</h3>
+			<img src="images/board.jpeg" class="fragment imagem-gigante">
+		</section>
+		<section>
+			<h3>Critério de pronto</h3>
+			<h5 class="fragment">Passo a passo que toda história percorre para termos segurança que podemos apresentá-la ao cliente</h5>
+			<h5 class="fragment">sem que a gente passe vergonha</h5>
+		</section>
+		<section data-background="images/ciclo7.png"></section>
+		<section>
+			<h3>Como garantimos que as histórias estão ok?</h3>
+		</section>
+		<section>
+			<h5>Pede pro usuário testar</h5>
+			<img src="images/teste.jpg" class="imagem-grande">			
+		</section>
+		<section>
+			<img src="images/ok.jpg" class="imagem-minuscula --espaco-lateral">
+			<img src="images/bug.png" class="imagem-minuscula --espaco-lateral fragment">
+			<img src="images/ideia.png" class="imagem-minuscula --espaco-lateral fragment">
+		</section>
+		<section data-background="images/ciclo8.png"></section>
+		<section data-background="images/ciclo9.png"></section>
+		<section data-background="images/ciclo10.png"></section>
+		<section data-background="images/ciclo11.png"></section>
+	</section>
+	<section>
+		<section>
+			<h3>Agora que já validamos o que foi feito na sprint, o que fazer?</h3>
+		</section>
+		<section data-background="images/melhoriaContinua.png"></section>
+		<section data-background="images/ciclo12.png"></section>
+		<section data-background="images/ciclo13.png"></section>
+		<section>
+			<h3>Quem participa dela?</h3>
+		</section>
+		<section data-background="images/ciclo14.png"></section>
+		<section data-background="images/ciclo15.png"></section>
+		<section>
+			<h3>Qual o formato da reunião?</h3>
+		</section>
+		<section>
+			<img src="images/retro.jpg" class="imagem-gigante">
+			<a href="https://waynedgrant.wordpress.com/2012/04/01/sprint-retrospective-techniques/" class="texto-pequeno">https://waynedgrant.wordpress.com/2012/04/01/sprint-retrospective-techniques/</a>
+		</section>
+		<section data-background="images/ciclo16.png"></section>
+		<section>
+			<h3>O que fazemos com os tópicos levantados?</h3>
+		</section>
+		<section>
+			<h3>Em que ordem discutimos estes pontos?</h3>
+			<h3 class="fragment">Positivos primeiro?</h3>
+			<h3 class="fragment">Ou será os negativos?</h3>
+		</section>
+		<section data-background="images/ciclo17.png"></section>
+		<section data-background="images/ciclo18.png"></section>
+		<section data-background="images/ciclo19.png"></section>
+		<section data-background="images/ciclo20.png"></section>
+		<section>
+			<img src="images/agileRetrospectives.jpg" class="imagem-pequena">
+		</section>
+		<section>
+			<img src="images/fun.png">
+			<a href="http://www.funretrospectives.com/">Fun retrospectives</a>
+		</section>
+	</section>
+	<section>
+		<section>
+			<h3>Só 1 reunião no final da sprint para dicutir os problemas?</h3>
+			<h5 class="negative fragment">Com que frequência problemas surgem num projeto de desenvolvimento?</h5>
+		</section>
+		<section data-background="images/autoOrganizado.png"></section>
+		<section>
+			<h5>Como o time sabe quem está fazendo o quer? Ninguém pegou a mesma tarefa?</h5>
+			<h5 class="fragment">Seria mais legal investigar isso todos os dias</h5>
+		</section>
+		<section>
+			<h3>Daily</h3>
+			<img src="images/daily.jpg">
+			<a href="https://www.agileconnection.com/sites/default/files/article/2015/scrum-standup-meeting.jpg" class="texto-pequeno">https://www.agileconnection.com/sites/default/files/article/2015/scrum-standup-meeting.jpg</a>
+		</section>
+		<section>
+			<h3>Daily</h3>
+			<h5>Reunião diária</h5>
+			<h5 class="fragment">Status do time para o time</h5>
+		</section>
+		<section>
+			<h3>Daily</h3>
+			<h5>Quem participa?</h5>
+			<h5 class="fragment negative">Desenvolvedores e Scrum master</h5>
+			<h5 class="fragment warning">Product Owner (como ouvinte)</h5>
+		</section>
+		<section>
+			<h3>Daily</h3>
+			<h5>Quanto tempo?</h5>
+			<h5 class="fragment">É todo dia né?</h5>
+			<h5 class="fragment negative">15 minutos</h5>
+			<h5 class="fragment">Pouco tempo não?</h5>
+		</section>
+		<section>
+			<h3>Daily</h3>
+			<h5>Cada um responde 3 perguntas:</h5>
+			<h5 class="fragment negative">O que eu fiz?</h5>
+			<h5 class="fragment negative">O que vou fazer?</h5>
+			<h5 class="fragment negative">Problemas e/ou impedimentos</h5>
+		</section>
+		<section>
+			<h3>Daily</h3>
+			<h5>O que fazer quando alguém fala um problma na daily?</h5>
+			<h5 class="fragment">Espera a daily acabar para conversar com a pessoa</h5>
+			<h3 class="fragment">Foco da daily: OUVIR</h3>
+		</section>
+		<section data-background="images/ciclo21.png"></section>
+	</section>
+	<section>
+		<section>
+			<h3>Parênteses</h3>
+			<h3 class="fragment">Qual a diferença de problema e impedimento?</h3>
+		</section>
+		<section>
+				<h3>Problema</h3>
+				<h5 class="fragment">Algo que atrapalha e o time resolve sozinho</h5>
+				<h3>Impedimento</h3>
+				<h5 class="fragment">Algo que atrapalha que o time TENTOU resolver, mas não conseguiu!</h5>
+		</section>
+		<section>
+			<h3>Quem resolve:</h3>
+			<h5>Problema?</h5>
+			<h5>Impedimento?</h5>
+		</section>
+		<section data-background="images/autoOrganizado.png"></section>
+		<section>
+			<h3>Quem resolve?</h3>
+			<h5 >Problema: time</h5>
+			<h5 >Impedimento: <span class="fragment">Scrum master</span></h5>
+		</section>
+	</section>
+	<section>
+		<section>
+			<h3>O que acontece quando terminamos a sprint com a retro?</h3>
+			<h3 class="fragment negative">Começa uma nova sprint</h3>
+		</section>
+		<section>
+			<h3>Mas o que precisamos fazer no começo da sprint?</h3>
+		</section>
+		<section>
+			<h3>Planning meeting</h3>
+			<img src="images/plano.jpg">
+			<a href="http://turmadamonica.uol.com.br/" class="texto-pequeno">Turma da Mônica</a>
+		</section>
+		<section data-background="images/ciclo22.png"></section>
+		<section>
+			<h3>Quem participa?</h3>
+			<h5 class="fragment negative">Time</h5>
+		</section>
+		<section>
+			<h3>Mas e o cliente?</h3>
+			<h5 class="fragment">Se o PO fez bem o trabalho, o cliente não precisa participar</h5>
+		</section>
+		<section data-background="images/ciclo23.png"></section>
+		<section>
+			<h3>Qual o objetivo da reunião?</h3>
+			<h5 class="fragment negative">Definir o Spring Backlog</h5>
+			<h5 class="fragment negative">Das histórias que existem no Product Backlog, quais vamos nos comprometer a fazer nesta sprint!</h5>
+		</section>
+		<section data-background="images/ciclo24.png"></section>
+		<section>
+			<h3>Mas como vamos definir o que cabe no Sprint Backlog?</h3>
+		</section>
+		<section>
+			<h4>1° passo: os devs precisam saber quais as necessidades</h4>
+			<h4 class="fragment">Quem sabe explicar? <span class="fragment negative">PO</span></h4>
+		</section>
+		<section>
+			<h4 class="fragment warning" data-fragment-index="4">Repete esse processo até passar 2 ou 3 histórias da capacidade do time</h4>
+			<h5 class="warning">PO apresenta a história mais prioritaria do PB do ponto de vista de negócio</h5>
+			<h5 class="fragment warning" data-fragment-index="1">Devs discutem história tecnicamente</h5>
+			<h5 class="fragment negative" data-fragment-index="2">Devs quebram história em tarefas técnicas</h5>
+			<h5 class="fragment warning" data-fragment-index="3">Devs estimam história por esforço</h5>
+		</section>
+		<section>
+			<h5>Estimativa por esforço: Planning poker</h5>
+			<img src="images/poker.jpg">
+			<a href="https://www.youtube.com/watch?v=gE7srp2BzoM" class="texto-pequeno">Agile Estimating and Planning: Planning Poker</a>
+		</section>
+		<section>
+			<img src="images/poker2.jpg" class="imagem-gigante">
+			<a href="https://agilestationery.co.uk/products/estimation-poker-cards" class="texto-pequeno">ESTIMATION POKER CARDS - 6 PLAYER DECK</a>
+		</section>
+		<section>
+			<h5>Qual o esforço?</h5>
+			<img src="images/monocilo.png" class="imagem-pequena">
+		</section>
+		<section>
+			<h5>Qual o esforço?</h5>
+			<img src="images/hover.jpg" class="imagem-pequena">
+		</section>
+		<section data-background="images/ciclo25.png"></section>
+		<section>
+			<h5>E agora que temos uma lista de histórias já discutidas entre todos?</h5>
+		</section>
+		<section>
+			<img src="images/segundaSprintProblema.png" class="imagem-pequena">
+		</section>
+		<section>
+			<h5>E agora que temos uma lista de histórias já discutidas entre todos?</h5>
+		</section>
+		<section>
+			<h5>Hora dos devs e do PO negociarem o Sprint Backlog</h5>
+			<img src="images/negociar.png" class="imagem-media">
+		</section>
+		<section data-background="images/ciclo26.png"></section>
+		<section>
+			<h5>Como saberemos na review que a sprint foi um sucesso?</h5>
+		</section>
+		<section>
+			<h5>Exemplo: estamos trabalhando num ERP para um restaurante</h5>
+		</section>
+		<section>
+			<h5>Histórias</h5>
+			<img src="images/historiasRestaurante.png" class="imagem-media">
+		</section>
+		<section>
+			<h5>Qual o maior valor que podemos entregar para o usuário nesta sprint?</h5>
+		</section>
+		<section>
+			<h2 class="negative">META</h2>
+			<h4>Nosso usuário pode optar por pagar sua refeição via boleto.</h4>
+		</section>
+		<section>
+			<img src="images/historiasRestaurante.png" class="imagem-media">
+		</section>
+		<section>
+			<h3>Se cumprimos a meta, a sprint foi um sucesso do ponto de vista de entregar valor para o usuário?</h3>
+			<h3 class="fragment">Sim</h3>
+		</section>
+		<section>
+			<h2 class="negative">META</h2>
+			<h4>Frase que mostra o maior valor dessa sprint para o usuário/mundo.</h4>
+		</section>
+		<section data-background="images/ciclo27.png"></section>
+		<section>
+			<h4>E se no meio da sprint surgir uma lei que proibe pagamento via boleto?</h4>
+			<h4 class="fragment">Dá para o time alcançar a meta?</h4>
+		</section>
+		<section>
+			<h4 class="negative">Cancelamento da sprint</h4>
+			<h4>Somente quando a meta deixa de fazer sentido</h4>
+		</section>
+	</section>
+	<section>
+		<section>
+			<h4>Mas o que são as histórias afinal?</h4>
+		</section>
+		<section>
+			<h2>História</h2>
+			<h2>Item que agrega valor pro usuário</h2>
+			<h2>Escrita em 1° pessoa</h2>
+		</section>
+		<section>
+			<img src="images/modeloHistoria.png" class="imagem-grande">
+		</section>
+		<section>
+			<img src="images/historiaReal.jpeg" class="imagem-grande">
+		</section>
+	</section>
+	<section>
+		<section>
+			<h4>Mas quem é esse time scrum?</h4>
+			<img src="images/time.jpeg">
+			<a href="https://coletivoux.com/time-de-design-kanban-e-multiprojetos-211cd4555962" class="texto-pequeno">Time de design, kanban e multiprojetos</a>				
+		</section>
+		<section>
+			<h4>3 figuras:</h4>
+			<h4 class="fragment negative">Desenvolvedor</h4>
+			<h4 class="fragment negative">Product Owner</h4>
+			<h4 class="fragment negative">Scrum master</h4>
+		</section>
+		<section>
+			<h4>Quantas pessoas?</h4>
+			<h4 class="fragment negative">Desenvolvedor:  3 até 9 pessoas</h4>
+			<h4 class="fragment negative">Product Owner: 1 pessoa</h4>
+			<h4 class="fragment negative">Scrum master: 1 pessoa</h4>
+		</section>
+		<section>
+			<h3>Qual a responsabilidade de cada um?</h3>
+		</section>
+		<section>
+			<h4 class="negative">Desenvolvedor</h4>
+			<div class="fragment">
+				<h6>Decidir a abordagem técnica para os problemas apresentados</h6>
+				<h6>Trocar informações e ajudar os companheiros de time</h6>
+				<h6>Estimar as histórias durante o planning</h6>
+				<h6>Escolher sua próxima tarefa a ser feita, considerando as prioridades da Sprint</h6>
+				<h6>Buscar a qualidade do projeto e a redução de erros</h6>
+			</div>
+		</section>
+		<section>
+			<h4 class="negative">Desenvolvedor - NÃO FAZ</h4>
+			<div class="fragment">
+				<h6>Considerar dúvidas técnicas como impedimentos. São apenas problemas</h6>
+				<h6>Esperar que alguém decida as atividades a serem feitas por eles</h6>
+				<h6>Se recusar a aprender um pouco sobre outras áreas de desenvolvimento</h6>
+			</div>
+		</section>
+
+		<section>
+			<h4 class="negative">Product owner</h4>
+			<div class="fragment">
+				<h6>Responder às dúvidas dos devs sobre o que está sendo desenvolvido ou indicar quem pode respondê-las melhor</h6>
+				<h6>Prover uma meta clara para cada Sprint</h6>
+				<h6>Obter feedback e expectativas dos clientes e extrair delas as necessidades</h6>
+				<h6>Manter o Product Backlog atualizado: adicionar itens novos; remover itens desatualizados; revisar a priorização do backlog constantemente</h6>
+			</div>
+		</section>
+		<section>
+			<h4 class="negative">Product owner - NÃO FAZ</h4>
+			<div class="fragment">
+				<h6>Saber a resposta para qualquer pergunta, mas sim a quem recorrer</h6>
+				<h6>Dizer aos desenvolvedores como, tecnicamente, fazer uma tarefa</h6>
+				<h6>Cobrar os desenvolvedores como gerentes tradicionais cobravam</h6>
+				<h6>Acumular o papel de Scrum Master</h6>
+			</div>
+		</section>
+
+		<section>
+			<h4 class="negative">Scrum master</h4>
+			<div class="fragment">
+				<h6>Educar time e clientes sobre agilidade e o processo</h6>
+				<h6>Assegurar que a equipe faz o Daily Scrum no horário certo e de modo produtivo</h6>
+				<h6>Resolver os impedimentos da melhor maneira possível</h6>
+				<h6>Manter o foco das reuniões, facilitar</h6>
+				<h6>Identificar pontos de melhoria no processo e no ferramental</h6>
+			</div>
+		</section>
+		<section>
+			<h4 class="negative">Scrum master- NÃO FAZ</h4>
+			<div class="fragment">
+				<h6>Gerenciar o time, distribuindo tarefas ou escolhendo soluções técnicas</h6>
+				<h6>Cobrar resultados do time</h6>
+				<h6>Ser a pessoa que atualiza as métricas e as cria</h6>
+				<h6>Acumular também o papel de Product Owner</h6>
+			</div>
+		</section>
+
+		<section>
+			<h4 class="negative">Time todo</h4>
+			<div class="fragment">
+				<h6>Melhorar continuamente</h6>
+				<h6>Respeitar o que foi combinado</h6>
+				<h6>Resolver problemas</h6>
+				<h6>Identificar e reportar problemas o mais cedo possível</h6>
+				<h6>Dar e receber feedback positivamente</h6>
+				<h6>Participar das cerimônias</h6>
+			</div>
+		</section>
+
+		<section data-background="images/autoOrganizado.png"></section>
+	</section>
+	
+	<section>
+		<section>
+			<p>REFERÊNCIAS</p>
+			<p class="--esquerda">Scrum Guide<a href="https://www.scrumguides.org/">https://www.scrumguides.org/</a></p>
+			<p class="--esquerda">Agile Manifesto. <a href="http://agilemanifesto.org/">http://agilemanifesto.org/</a></p>
+			<p class="--esquerda">Curso Caelum: Gerenciamento Ágil de Projetos de Software com Scrum. <a href="https://www.caelum.com.br/curso-agile-scrum">https://www.caelum.com.br/curso-agile-scrum</a></p>
+		</section>
+		<section>
+			<h2>Dúvidas?</h2>
+		</section>
+		<section>
+			<h2>Obrigado!</h2>
+			<h2 class="link-palestra"> </h2>
+		</section>
+	</section>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+
+<script>
+	Reveal.initialize({
+		controls: true,
+		progress: true,
+		history: true,
+		center: true,
+		dependencies: [
+			{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+			{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+			{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+		]
+	});
+
+</script>
+
+</body>
+</html>

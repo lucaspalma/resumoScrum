@@ -1,0 +1,195 @@
+
+{Ambos} (1 minuto) 
+Apresentação
+
+{Molesim} (3 minutos)
+Definição de Liberdade (Autonomia)
+Nossos exemplos:
+	Vinda para o AgileBrazil
+	Escalonamento de Cursos
+	Decisões Arquiteturais, frameworks, linguagens, etc
+	Todo mundo tem a senha do servidor de produção
+	Contratação
+	Bebidas alcoólicas e video-game disponíveis no ambiente de trabalho
+Vantagens
+	Joel Spolsky - TDC (What Do Programmers Care About?)
+		- How to contract top programmers?
+	Dan Pink - D.R.I.V.E.
+		- Proposito, Maestria e Autonomia
+Quem são esses caras? Os que querem contratar e melhor produtividade
+
+Pergunta pro público:
+	Quem aqui acredita que seu ambiente de trabalho apresenta um grau de autonomia para desfrutar das vantagens de produtividade e recrutamentos?
+
+	Provavelmente é minoria => Problemas!
+	Se é melhor, por que não fazemos?
+
+{Ceci} (15 minutos)
+Pra entender o problema, convida nosso amigo "_______, o Gerente"
+
+Pergunta pra ele: por que não dar mais liberdade?
+O que o gerente vai falar
+	vão passar o dia todo no Facebook
+	vão ficar escovando bit em vez de produzindo features
+	vou perder noção do que está acontecendo
+	como eu vou reportar pro meu chefe?
+	como eu vou garantir os prazos?
+	ninguém vai ser responsável (responsabilizável?) por nada!
+	vão trabalhar 4 horas por semana e vão embora!
+	não vão saber o que fazer
+
+Calma!
+O que disso é verdade, o que é mito?
+
+{Molesim} (19 minutos)
+1. vão passar o dia todo no Facebook
+1a. vão trabalhar 4 horas por semana e vão embora!
+	(Premissa) Ford: assumir que o cara não quer trabalhar!
+	(Pense sobre a premissa) Pessoas não-confiáveis dão muito mais custos:
+		perde seu tempo pra garantir que ela use o tempo dela bem
+		compromete transparência do ambiente
+		trabalho de revisar tudo ou refazer
+		causa mal-estar com as pessoas que têm mais responsabilidades
+
+	Se 'todas as acima' => certeza que vai passar o dia no Facebook!
+		[CONFIRMED] (sem ligação visual com o assunto)
+
+	(Questiona premissa) Mas... esse é o ambiente que você quer? Desperdício!
+	Volta na premissa do Ford: assume que o cara vai trabalhar pelo dinheiro
+		Estudos que o Dan Pink cita:
+			Dinheiro motiva até certo ponto. Depois passa a ser terciário.
+		Os profissionais que criaram nossas empresas não se sentiam motivados por dinheiro => empresas herdaram isso!
+
+	(Nossas culturas)
+		prefere cortar custos de desconfiança: dá autonomia!
+		Refraseando... ou confia, ou a pessoa vai embora!
+*		Se você não é auto-organizável você é muito caro pra mim.
+	(Veredito) Então, nas nossas culturas
+		[BUSTED]
+
+{Ceci} (24 minutos)
+2. como gerente vai garantir os prazos?
+2a. ninguém vai ser responsável (responsabilizável?) por nada!
+2b. não vão saber o que fazer
+
+	(Premissa) Só gerentes capazes de fazer entregas no prazo!
+	(Pensando na premissa) Ford: pessoas em níveis mais altos na hierquia são as mais capazes. 
+		Em que tipo de ambiente isso acontece?
+			Time que executa não participa da escolha do prazo;
+			Mesmo que participem, se não há consequências do não-cumprimento;
+			Mesmo que tentem, time tenta atigir o prazo pro Gerente, não pro cliente;
+			Feedback do cliente vem amortecido ou nem vem.
+
+	Se 'alguma das acima' => não vão cumprir prazos!
+		[CONFIRMED] (sem ligação visual com o assunto)
+	
+	(Questiona premissa) Mas... gerentes são mais capazes de cumprir prazos?
+		Vejamos aqui na sala: quantos cumprem prazos mais do que não cumprem?
+			Chaos report: nosso mercado já não entrega hoje!
+		Jurgen Appelo: As pessoas mais aptas a lidarem com problemas, são as mais próximas do problema. (pegar a referencia)
+		Completa: quanto mais as pessoas subordinadas participarem do processo de construção do prazo, maior a assertividade.
+		Participar == terem poder E responsabilidade sobre os compromissos.
+
+	(Nossas culturas)
+		Time participa do processo de construção da estimativa
+			Vendemos estimativas não prazos
+		Acreditamos que só funciona porque a responsabilidade também é transferida!
+			i.e.: se cliente ficar puto, ninguém protege o time das consequências.
+		Termo novo: "delargação"
+*			Expõe o time ao cliente: na alegria ou na tristeza
+			Cria um senso de comprometimento com o projeto.
+
+	(Veredito) Então, nas nossas culturas
+		[BUSTED]
+
+{Ceci} (29 minutos)
+3. como eu vou reportar pro meu chefe?
+3a. vou perder noção do que está acontecendo
+	(Premissa) Meu emprego está em jogo, e cada vez menos sou necessário
+
+	(Pense sobre a premissa) 
+		Instintivo: auto-preservação
+		Quanto mais liberdade, menos estruturas de controle é necessária
+	[CONFIRMED]
+
+	(Questiona premissa) 
+		Será que podemos sumir com o gerente?
+		Gestão sempre é necessária, mas não micro-gerenciamento!
+*			Gestão é importante demais pra ficar na mão de 1 pessoa
+		Pergunta para a sala: Qual o truck factor do seu projeto?
+
+	(Nossas culturas)
+		Não temos gerentes!
+		Temos facilitadores, temos coaches e... todos os devs se sentem responsáveis (e são responsabilizáveis) pelo seu projeto;
+		Ninguém sente falta de ter alguém pra dizer o que fazer
+			Mas sentem falta de facilitadores e coaches
+
+	(Veredito) Então, nas nossas culturas
+		[CONFIRMED]		
+
+{Ceci} (34 minutos)
+4. Liberdade é o que todo desenvolvedor quer!
+	(Premissa) Liberdade só tem vantagens
+	(Pense sobre a premissa)
+		Se as pessoas foram treinadas a trabalhar sem pressão
+		Se sempre trabalham sozinho
+
+	Se um dos acima...
+	[CONFIRMED]
+		
+	(Questiona premissa)
+		No mundo real... pessoas dependem dos trabalhos (e/ou da presença) das outras
+		E, contratar pessoas com backgrounds onde estavam acostumados a fazer o que pedem => fica perdido, sofre!
+			Não acontece com estagiários :-)
+	(Nossas culturas)
+		Exige um bom trabalho de coaching pra aclimatar a pessoa que vem do mercado
+		Perdemos bons profissionais, que gostam de pressão
+	(Veredito) Liberdade é o que todo desenvolvedor quer!
+		[BUSTED]
+
+{Molesim} (42 minutos)
+5. Com liberdade, meus projetos vão agregar valor pro meu cliente
+	(Premissa) Preciso de um ambiente que fomente criatividade para agregar mais valor pro cliente com inovação e excelência técnica
+	(Pense sobre a premissa)
+		Se não temos restrições de prazo, financeiras e técnicas...
+		Se você tem um time super maduro
+		Se o cliente também tem um time de manutenção maduro
+
+	Nesse caso...	
+		[CONFIRMED]
+
+	(Questiona premissa)
+		Liberdade está mesmo relacionada com valor pro cliente?
+		Liberdade exige mais maturidade!
+	(Nossas culturas)
+		Já tivemos problemas com...
+			Gold plating
+*				Excelência técnica é forçar a barra -- Alberto Souza
+			Never finishing anyt
+			Barulho atrapalhando gente concentrada
+			Test All the Fucking Time
+			Analisys Paralisys
+
+	(Veredito) Com liberdade, meus projetos vão agregar valor pro meu cliente
+		[BUSTED]
+
+{Molesim} (50 minutos)
+Alerta!
+	Todas as opiniões expressas nessa palestra são baseadas na vivência dos palestrantes -- não verdades absolutas!
+		[CONFIRMED] e [BUSTED] são sensíveis ao contexto
+
+Dar liberdade
+	exige uma certa coragem
+	tem suas dificuldades
+	...
+	mas ainda vale muito a pena
+		na nossa opinião!
+
+Liberdade no local de trabalho anda de mãos dadas com:
+1.	redução de desperdícios
+2.	transferência de responsabilidades
+3.	truck factor mais alto
+4.	desaprender vícios do mercado
+5.	desenvolvimento de maturidade
+
+FIM

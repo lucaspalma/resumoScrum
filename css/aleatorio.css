@@ -1,0 +1,67 @@
+#mundo {
+	margin: 0 auto;
+	width: 50%;
+}
+
+.telasTodosTimes {
+	position: relative;
+}
+
+.telasTimes {
+	position: relative;
+	z-index: 10;
+}
+
+.telasTimes {
+	position: absolute;
+	z-index: 100;
+}
+
+.times {
+	display: inline-block;
+	width: 11em;
+	height: 8em;
+}
+
+.times2 {
+	width: 24em;	
+	height: 8em;
+}
+
+.reveal .problemas span{
+	display: inline-block;
+	margin-top: 0.2em; 
+}
+
+.reveal .Alternativa span{
+	display: block;
+	margin-top: 0.2em;
+}
+
+.naoRetro {
+	position: absolute;
+	top:0.67em;
+	left:0.13em;
+}
+
+#SAS {
+	width: 50%;
+}
+
+#SSR {
+	width: 40%;
+}
+
+.pesquisas {
+	display: inline-block;
+}
+
+.pesquisas legend {
+	width: 100%;
+	text-align: center;
+}
+
+.suricato {
+	width: 50%;
+}
+
