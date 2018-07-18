@@ -186,6 +186,11 @@
 	word-break: break-all;
 	word-break: break-word;
 }
+
+.reveal .espaco-em-cima {
+	margin-top: 10px;
+}
+
 .flutua-esquerda{
 	float: left;
 }
